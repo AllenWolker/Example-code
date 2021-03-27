@@ -1,0 +1,53 @@
+.tool-hs-history-spectators-graphics-item {
+  display: flex;
+
+  &__line__container {
+    margin-left: auto;
+  }
+
+  &__line_sex_and_age {
+    margin-top: -11px;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #6D7885 !important;
+    margin: 0 0 11px 11px;
+  }
+
+  span {
+    display: flex;
+    width: 210px;
+    margin-left: auto;
+    margin-right: 11px;
+
+    div:last-child {
+      margin-top: 3px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #99A2AD;
+    }
+  }
+
+  &__cell_geo_graphic, &__cell_geo_graphic_two {
+    width: 200px;
+    border-radius: 8px;
+    background-color: #579BEB;
+    height: 5px;
+    padding: 0;
+    margin-top: 8px;
+    margin-right: 4px;
+  }
+
+  &__cell_geo_graphic_two {
+    background-color: #EE94B4;
+  }
+}

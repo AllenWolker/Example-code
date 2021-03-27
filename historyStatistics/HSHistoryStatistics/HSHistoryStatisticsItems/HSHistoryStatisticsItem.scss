@@ -1,0 +1,49 @@
+.tool-hs-history-statistics-item {
+  &__container {
+    margin-top: 20px !important;
+    width: 104px;
+    height: 156px;
+    border-radius: 4px;
+    margin-left: 8px;
+    position: relative;
+img{
+  border-radius: 5px;
+}
+    div:first-child{
+      color:  #6D7885;
+      position: relative;
+      z-index: 3;
+
+    }
+
+  }
+  &__bottomIndicator{
+    margin-top: 132px;
+    margin-right: 4px;
+    margin-left: auto;
+    height: 18px;
+    display: flex;
+    position: relative;
+    z-index: 3;
+    background: #FFFFFF;
+    max-width: 55px;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    span{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      /* identical to box height, or 117% */
+
+      text-align: right;
+      letter-spacing: 0.2px;
+
+      /* Light Text / Subhead */
+
+      color: #6D7885;
+    }
+  }
+}
+

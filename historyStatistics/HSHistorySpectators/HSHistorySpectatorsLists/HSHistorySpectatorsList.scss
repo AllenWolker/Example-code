@@ -1,0 +1,89 @@
+.hs-history-spectators-list {
+  .Group {
+    margin-top: -10px !important;
+  }
+.Group:first-child{
+  margin-top: 60px !important;
+  margin-bottom: 20px;
+}
+
+  .Cell__children {
+    margin-top: 8px;
+  }
+
+  .hs-statistics-history-for-days {
+    margin-left: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    margin-top: 16px;
+    padding: 6px 16px;
+    color: var(--color-link);
+  }
+
+  &__victory_pie {
+
+    width: 200px;
+    margin: 0 auto;
+    margin-top: -50px;
+    text{
+      tspan{
+        display: none;
+      }
+    }
+
+  }
+
+  &__victory_pie_index_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    span {
+      div:first-child {
+        display: flex;
+        align-self: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #6D7885;
+
+        div {
+          //  background-color: #579BEB;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          margin-right: 4px;
+        }
+      }
+
+      div:last-child {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #99A2AD;
+        margin-top: 4px;
+      }
+    }
+  }
+  &__sex_and_age_container{
+
+      margin-top: 60px !important;
+      margin-bottom: 20px;
+  }
+  .Button {
+    background: var(--color-background-button);
+    border-radius: 8px;
+    width: 100%;
+    height: 36px;
+    color: var(--color-button);
+  }
+}
